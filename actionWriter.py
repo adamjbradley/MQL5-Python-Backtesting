@@ -19,13 +19,10 @@ class actionWriter():
     def save2csv(self,output_save, predict_result, contents, signal, prev_signal, df):
         output_save.save_csv(contents, df, signal, prev_signal, predict_result)
 
-
-    
     def cleanFile(self, filename):
         del_f = open(filename, "w")
         del_f.close()
         
-
     def run(self):
         filename = "time_close_csv_test.csv"
         pre_Timebar = 0

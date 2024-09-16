@@ -1,6 +1,6 @@
 # import your trading strategy here
 #from sma_ema import SimpleMAExponentialMA
-from trading_strategies.sma_ema import SimpleMAExponentialMA
+from sma_ema import SimpleMAExponentialMA
 #from trading_strategies.adx_crossover import AdxCrossover
 #from trading_strategies.aroon_adx import AroonAdx
 #from trading_strategies.sma_mi import SMAMI
